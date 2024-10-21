@@ -172,6 +172,7 @@ main {
     object-fit: cover;
     border-top-left-radius: inherit;
     border-bottom-left-radius: inherit;
+    overflow: hidden;
 }
 
 .number {
