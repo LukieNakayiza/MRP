@@ -1,0 +1,116 @@
+
+@font-face {
+    font-family: "poppins-light";
+    src: url(font/Poppins-Light.ttf);
+}
+
+@media all and (max-width: 1510px) {
+    .genres {
+        flex-wrap: wrap;
+    }
+
+    .topMovie {
+        
+        width: 40vw;
+       height: 30vw;
+    }
+}
+
+@media all and (max-width: 1090px) {
+    .linkButton {
+    width: 100%;
+    margin: auto;
+    }
+}
+
+@media all and (max-width: 800px) {
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav-side:hover ul {
+
+        display: inline-block;
+
+    }
+
+    .nav-side ul {
+        display: none;
+        position: absolute;
+        background-color: rgba(17, 17, 110, 0.95);
+        width: 100%;
+        top: 85%;
+        z-index: 2;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+
+    }
+
+    .nav-side ul li {
+        margin: 12px 0;
+
+    }
+
+    .p-type-1 {
+        width: 100%;
+    }
+
+    .genres {
+        flex-wrap: wrap;
+    }
+
+    .genreItem {
+        width: 150px;
+
+    }
+
+    .image2 {
+        height: 200px;
+    }
+
+    .genreItem figcaption {
+
+        height: 50px;
+    }
+
+    .topMoviesContainer {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    .topMovie {
+
+        width: 100%;
+        height: 220px;
+
+    }
+
+    .linkButton {
+        width: 80%;
+        margin: auto;
+        font-size: 12px;
+    }
+
+    .topMovieContent .p-type-1 {
+        width: 80%;
+    }
+
+    .number {
+        font-size: 20px;
+        height: 30px;
+    }
+
+    .footerOne {
+        grid-template-columns: 1fr 1fr;
+        gap: 5vw;
+    }
+
+    .footerTwo input[type="email"] {
+        width: 50vw;
+    }
+}
